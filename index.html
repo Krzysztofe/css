@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplikacja test css</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Open+Sans:wght@500;800&family=Roboto:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https:/unpkg.com/a11y-slider@latest/dist/a11y-slider.css"
+    />
+
+    <script
+      src="//unpkg.com/a11y-slider@latest/dist/a11y-slider.js"
+      defer
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="primary-header">
+      <div class="wrapper">
+        <div class="nav-wrapper">
+          <a href="#" class="logo">
+            <img src="./images/logo.jpg" alt="logo" />
+          </a>
+
+
+          
+          <button
+            class="moble-nav-toggle"
+            aria-controls="primary-navigation"
+            aria-expanded="false"
+          >
+            <i class="fa-solid fa-bars icon-hamburger"></i>
+            <i class="fa-solid fa-xmark icon-xmark"></i>
+
+            <span class="visually-hidden">Menu</span>
+          </button>
+
+
+
+          <nav class="primary-navigation" id="primary-navigation">
+            <ul
+              aria-label="Primary"
+              role="list"
+              class="nav-list"
+              id="primary-navigation"
+            >
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Comunity</a></li>
+            </ul>
+          </nav>
+
+
+
+          <button class="button | display-sm-none display-md-inline-flex">
+            Get started
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="padding-block-900">
+        <div class="wrapper">
+          <div class="even-columns">
+            <div class="flow">
+              <h1 class="fs-primary-heading fw-bold">
+                Bring together to build bettrer products
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+                non? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Cumque, non?
+              </p>
+              <button class="button">Get started</button>
+            </div>
+            <div class="">
+              <img src="./images/right_column_img.jpg" alt="hand" />
+            </div>
+            <div>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+                non? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Cumque, non?</div>
+                 <div>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+                non? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Cumque, non?</div>
+          </div>
+        </div>
+      </section>
+      <section class="padding-block-900">
+        <div class="wrapper">
+          <div class="even-columns">
+            <div class="flow">
+              <h2 class="fs-secondary-heading fw-bold">
+                What differand about Manage?
+              </h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum
+                iusto ducimus laboriosam.
+              </p>
+            </div>
+            <div class="">
+              <ul class="numbered-items flow" role="list">
+                <li>
+                  <div class="flow">
+                    <h3 class="fs-600 fw-bold">Lorem, ipsum.</h3>
+                    <p data-width="wide">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Reprehenderit, nisi enim impedit provident dolor placeat
+                      assumenda.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="flow">
+                    <h3 class="fs-600 fw-bold">Lorem, ipsum.</h3>
+                    <p data-width="wide">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Reprehenderit, nisi enim impedit provident dolor placeat
+                      assumenda.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="flow">
+                    <h3 class="fs-600 fw-bold">Lorem, ipsum.</h3>
+                    <p data-width="wide">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Reprehenderit, nisi enim impedit provident dolor placeat
+                      assumenda.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- carousel -->
+      <section class="carousel padding-block-700 text-center">
+        <h2 class="fs-secondary-heading fw-bold">What they said</h2>
+        <ul class="slider">
+          <li>
+            <img src="./images/logo.jpg" alt="logo" />
+            <h3 class="fw-bold">Ali bravo</h3>
+            <p data-width="wide">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+              quasi cupiditate officiis laborum hic dolore repellendus!
+              Voluptatibus, reiciendis. Corporis repudiandae at expedita ad
+              sequi iste ex vitae architecto. Voluptate, eius.
+            </p>
+          </li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+        </ul>
+        <button class="button">Get started</button>
+      </section>
+      <!-- cta -->
+      <section class="cta | padding-block-900 bg-accent-400 text-neutral-100">
+        <div class="wrapper">
+          <div class="even-columns vertical-align-center">
+            <div class="">
+              <p class="fs-secondary-heading fw-bold">
+                Simplify how your team works today.
+              </p>
+            </div>
+            <div class="justify-self-end">
+              <button class="button | push-right" data-type="inverted">
+                Get started
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="primary-footer bg-neutral-900 padding-block-700 text-neutral-100"
+    >
+      <div class="wrapper">
+        <div class="primary-footer-wrapper even-columns">
+          <div class="primary-footer-logo-social">
+            <a href="#" class="logo">
+              <img src="./images/logo.jpg" alt="logo" />
+            </a>
+            <ul class="social-list" role="list" aria-label="Social links">
+              <li>
+                <a href="#" aria-label="facebook">
+                  <i class="fa-brands fa-facebook icon"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" aria-label="youtube">
+                  <i class="fa-brands fa-youtube icon"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" aria-label="twitter">
+                  <i class="fa-brands fa-twitter icon"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" aria-label="pinterest">
+                  <i class="fa-brands fa-square-pinterest icon"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" aria-label="instagram">
+                  <i class="fa-brands fa-instagram icon"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="primary-footer-nav">
+            <nav class="footer-nav">
+              <ul class="flow" aria-label="Footer" role="list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About US</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Privacy</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="primary-footer-form">
+            <form action="">
+              <input type="email" />
+              <button class="button" data-shadow="none">Go</button>
+            </form>
+            <p>Copyright</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <section class="grid">
+      <div class=" grid-span-2">
+      1  Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+        labore, nam tempora, voluptatum ad impedit assumenda odio officia rem
+        perspiciatis facere iste illum et nesciunt vero? Enim asperiores ratione
+        porro!
+      </div>
+      <div class="">
+       2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+        labore, nam tempora, voluptatum ad impedit assumenda odio officia rem
+        perspiciatis facere iste illum et nesciunt vero? Enim asperiores ratione
+        porro!
+      </div>
+      <div class="">
+      3  Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+        labore, nam tempora, voluptatum ad impedit assumenda odio officia rem
+        perspiciatis facere iste illum et nesciunt vero? Enim asperiores ratione
+        porro!
+      </div>
+        <div class="grid-span-2">
+       4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+        labore, nam tempora, voluptatum ad impedit assumenda odio officia rem
+        perspiciatis facere iste illum et nesciunt vero? Enim asperiores ratione
+        porro!
+      </div>
+        <div class="">
+      5  Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+        labore, nam tempora, voluptatum ad impedit assumenda odio officia rem
+        perspiciatis facere iste illum et nesciunt vero? Enim asperiores ratione
+        porro!
+      </div>
+    </section>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
